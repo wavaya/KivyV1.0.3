@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="font_title_color">#252525</color>
+    <color name="font_content_color">#999999</color>
+    <color name="font_context_addtion_color">#666666</color>
+    <color name="font_context_addtion2_color">#333333</color>
+
+
+    <!--白天-->
+    <color name="day_colorPrimary">@color/colorPrimary</color>
+    <color name="day_colorPrimaryDark">@color/colorPrimaryDark</color>
+    <color name="day_colorAccent">@color/colorAccent</color>
+    <color name="day_status_bar_color">@android:color/white</color>
+    <color name="day_background">@android:color/white</color>
+    <color name="day_edit_color">@color/font_content_color</color>
+    <color name="day_edit_hit_color">@color/font_content_color</color>
+    <color name="day_textColor">@color/font_content_color</color>
+    <color name="day_infoTextColor">@color/font_content_color</color>
+    <color name="day_line_color">#e9eef4</color>
+    <color name="day_titleFontColor">@color/font_title_color</color>
+    <color name="day_footFontColor">@color/text_light</color>
+    <color name="day_bg">#f2f2f2</color>
+    <color name="text_light">#AEAEAE</color>
+    <color name="day_action_menu_text_color">@color/day_titleFontColor</color>
+    <!--晚上-->
+    <color name="night_colorPrimary">@color/colorPrimary</color>
+    <color name="night_colorPrimaryDark">@color/colorPrimaryDark</color>
+    <color name="night_colorAccent">@color/colorAccent</color>
+    <color name="night_status_bar_color">@android:color/white</color>
+    <color name="night_background">#1f1f1f</color>
+    <color name="night_edit_color">@color/font_content_color</color>
+    <color name="night_edit_hit_color">@color/font_content_color</color>
+    <color name="night_textColor">#b3b3b3</color>
+    <color name="night_infoTextColor">#666666</color>
+    <color name="night_line_color">#282828</color>
+    <color name="night_titleFontColor">#999999</color>
+    <color name="night_footFontColor">@color/font_context_addtion2_color</color>
+    <color name="night_bg">#666666</color>
+    <color name="night_daywhiteColor">#666666</color>
+    <color name="night_drawLayoutColor">@android:color/white</color>
+
+</resources>

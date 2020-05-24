@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="v8_white">@android:color/white</color>
+    <!--按钮选中的颜色，其他插件可以替换些值-->
+    <color name="v8_btn_select">#4280F5</color>
+    <color name="v8_btn_bg_start_color">#ff4280f5</color>
+    <color name="v8_btn_bg_end_color">#ff71a1fa</color>
+
+
+    <color name="v8_check_bg_start_color">#ff7daafc</color>
+    <color name="v8_check_bg_end_color">#ff407ef2</color>
+
+    <color name="v8_btn_commit_title">@color/v8_font_deep_color</color>
+    <color name="v8_btn_cancel_title">@color/v8_font_light_title</color>
+    <color name="v8_bg_color">#ffe9eef4</color>
+
+    <color name="white">@android:color/white</color>
+
+    <color name="v8_select_left">#ff3a7cf6</color>
+    <color name="v8_label_blue">#ff3a7cf6</color>
+    <color name="v8_label_green">#07BA06</color>
+    <color name="v8_label_red">#fffb5669</color>
+    <color name="v8_label_yellow">#FCA637</color>
+
+
+    <color name="v8_font_deep_color">#222222</color>
+    <color name="v8_font_midle_title">#666666</color>
+    <color name="v8_font_light_title">#999999</color>
+
+
+</resources>

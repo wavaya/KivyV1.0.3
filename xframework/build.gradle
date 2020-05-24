@@ -1,0 +1,79 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+apply plugin: 'kotlin-android-extensions'
+apply plugin: 'kotlin-kapt'
+apply plugin: "org.jetbrains.kotlin.plugin.serialization"  //必须加上才行
+
+android {
+    compileSdkVersion compileVersion
+    buildToolsVersion buildToolsVersion
+
+    defaultConfig {
+        minSdkVersion minSdk
+        targetSdkVersion targetSdk
+        versionCode 1
+        versionName "1.0." + versionCode
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles 'consumer-rules.pro'
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = "1.8"
+    }
+
+    libraryVariants.all {
+        variant ->
+            variant.outputs.all {
+                def fileName = outputFileName.replace(".aar",
+                        "-V${defaultConfig.versionName}.aar")
+                outputFileName = fileName  //以前用的是outputFile现在改为文件名
+            }
+    }
+
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation kotlin.kotlinStdlibJdk
+    implementation kotlin.coreKtx
+    implementation kotlin.coroutineCore
+
+    implementation rxJava.rxjava
+    implementation rxJava.rxandroid
+    implementation koin.koinAndroid
+    implementation koin.koinExt
+
+
+    implementation room.pagingRuntime
+    implementation room.pagingCommon
+    implementation room.pagingRuntimeKtx
+    implementation room.pagingCommonKtx
+
+    implementation supportLib.appcompat
+    implementation supportLib.material
+    implementation supportLib.constraintlayout
+    implementation archLib.extensions
+
+    implementation livebus
+    implementation immersion.bar
+    implementation immersion.components
+    implementation immersion.ktx
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+}

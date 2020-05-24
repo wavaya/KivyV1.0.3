@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="lineColor" format="reference" />
+    <attr name="contentTextColor" format="reference" />
+    <attr name="footTextColor" format="reference" />
+    <attr name="infoTextColor" format="reference" />
+    <attr name="daywhiteColor" format="reference"/>
+    <attr name="drawLayoutColor" format="reference"/>
+    <attr name="titleFontColor" format="reference" />
+</resources>

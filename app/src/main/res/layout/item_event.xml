@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<androidx.cardview.widget.CardView android:id="@+id/main_item_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_8dp"
+    android:layout_marginEnd="@dimen/margin_8dp"
+    android:layout_marginBottom="@dimen/margin_16dp"
+    app:cardCornerRadius="@dimen/margin_8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/margin_16dp">
+
+            <ImageView
+                android:id="@+id/iv_image"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/main_item_iv_height_160dp"
+                android:background="@drawable/ic_image_placeholder"
+                android:scaleType="centerCrop" />
+
+            <TextView
+                android:id="@+id/tv_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_16dp"
+                android:layout_marginTop="@dimen/margin_16dp"
+                android:layout_marginEnd="@dimen/margin_16dp"
+                android:layout_marginBottom="@dimen/margin_8dp"
+
+                android:textAllCaps="true"
+                android:textColor="@color/colorTvBlack"
+                android:textSize="@dimen/text_size_16sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_16dp"
+                android:layout_marginEnd="@dimen/margin_16dp"
+
+                android:textColor="@color/colorTvBlack" />
+
+            <TextView
+                android:id="@+id/tv_location"
+                style="@style/TextInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_16dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:layout_marginEnd="@dimen/margin_16dp"
+                android:drawableStart="@drawable/ic_location"
+                android:drawablePadding="@dimen/margin_16dp"
+                android:paddingStart="@dimen/margin_4dp"
+                 />
+
+            <TextView
+                android:id="@+id/tv_date"
+                style="@style/TextInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_16dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:layout_marginEnd="@dimen/margin_16dp"
+                android:drawableStart="@drawable/ic_date"
+                android:drawablePadding="@dimen/margin_12dp"
+                android:paddingStart="@dimen/margin_4dp"
+                tools:text="10-11 августа" />
+
+            <TextView
+                android:id="@+id/tv_price"
+                style="@style/TextInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_16dp"
+                android:layout_marginTop="@dimen/margin_8dp"
+                android:layout_marginEnd="@dimen/margin_16dp"
+                android:drawableStart="@drawable/ic_ruble"
+                android:drawablePadding="@dimen/margin_18dp"
+                android:paddingStart="@dimen/margin_4dp"
+                tools:text="1 200 - 1 500 Р" />
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>

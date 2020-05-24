@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="v8_font_10sp">10sp</dimen>
+    <dimen name="v8_font_11sp">11sp</dimen>
+    <dimen name="v8_font_12sp">12sp</dimen>
+    <dimen name="v8_font_13sp">13sp</dimen>
+    <dimen name="v8_font_14sp">14sp</dimen>
+    <dimen name="v8_font_15sp">15sp</dimen>
+    <dimen name="v8_font_16sp">16sp</dimen>
+    <dimen name="v8_font_17sp">17sp</dimen>
+    <dimen name="v8_font_18sp">18sp</dimen>
+
+
+    <dimen name="v8_single_btn_width">280dp</dimen>
+    <dimen name="v8_double_btn_width">150dp</dimen>
+    <dimen name="v8_btn_height">46dp</dimen>
+    <dimen name="v8_common_height">48dp</dimen>
+    <dimen name="v8_min_height">48dp</dimen>
+    <dimen name="v8_middle_height">120dp</dimen>
+
+    <dimen name="v8_common_font_size">16sp</dimen>
+    <dimen name="v8_space_margin">16dp</dimen>
+    <dimen name="v8_space_middle_margin">12dp</dimen>
+    <dimen name="v8_space_little_margin">10dp</dimen>
+    <dimen name="v8_space_small_margin">4dp</dimen>
+    <dimen name="v8_space_2dp_margin">2dp</dimen>
+    <dimen name="v8_title_min_width">32dp</dimen>
+
+    <dimen name="v8_image_midle">36dp</dimen>
+    <dimen name="image_sta_size">24dp</dimen>
+    <dimen name="image_sta_m_size">36dp</dimen>
+    <dimen name="image_sta_x_size">48dp</dimen>
+    <dimen name="image_sta_2x_size">60dp</dimen>
+    <dimen name="image_sta_3x_size">72dp</dimen>
+
+
+</resources>

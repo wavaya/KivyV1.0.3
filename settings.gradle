@@ -1,0 +1,2 @@
+rootProject.name='KivyV1.0.3'
+include ':app', ':xframework'

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="Theme.XFramework" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/day_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/day_colorPrimaryDark</item>
+        <item name="colorAccent">@color/day_colorAccent</item>
+      <item name="android:statusBarColor">@color/day_status_bar_color</item>
+
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/day_background</item>
+        <item name="background">@color/day_bg</item>
+        <item name="lineColor">@color/day_line_color</item>
+        <item name="daywhiteColor">@android:color/white</item>
+        <item name="drawLayoutColor">@color/day_colorPrimary</item>
+        <item name="colorControlNormal">@android:color/white</item>
+
+        <item name="contentTextColor">@color/day_textColor</item>
+        <item name="infoTextColor">@color/day_infoTextColor</item>
+        <item name="titleFontColor">@color/day_titleFontColor</item>
+
+        <item name="footTextColor">@color/day_footFontColor</item>
+        <item name="android:editTextColor">@color/day_edit_color</item>
+        <item name="android:textColorHint">@color/day_edit_hit_color</item>
+
+        <item name="android:actionMenuTextColor">@color/day_action_menu_text_color</item>
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+    <style name="Theme.XFramework_Night" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="colorPrimary">@color/night_colorPrimary</item>
+        <item name="colorPrimaryDark">@color/night_colorPrimaryDark</item>
+        <item name="colorAccent">@color/night_colorAccent</item>
+        <item name="android:statusBarColor">@color/night_status_bar_color</item>
+        <item name="actionBarPopupTheme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+
+        <item name="windowActionBar">false</item>
+        <item name="android:windowBackground">@color/night_background</item>
+        <item name="background">@color/night_bg</item>
+        <item name="lineColor">@color/night_line_color</item>
+        <item name="daywhiteColor">@color/night_daywhiteColor</item>
+        <item name="colorControlNormal">@android:color/white</item>
+        <item name="drawLayoutColor">@color/night_drawLayoutColor</item>
+
+        <item name="android:editTextColor">@color/night_edit_color</item>
+        <item name="android:textColorHint">@color/night_edit_hit_color</item>
+        <item name="contentTextColor">@color/night_textColor</item>
+        <item name="infoTextColor">@color/night_infoTextColor</item>
+        <item name="titleFontColor">@color/night_titleFontColor</item>
+        <item name="footTextColor">@color/night_footFontColor</item>
+
+        <item name="android:actionMenuTextColor">@color/font_content_color</item>
+
+        <item name="android:windowIsTranslucent">false</item>
+    </style>
+
+
+
+    <style name="TabLayoutTextAppearance" parent="TextAppearance.AppCompat.Widget.ActionBar.Title">
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+
+    <style name="TabLayoutTextAppearanceInverse" parent="TextAppearance.AppCompat.Widget.ActionBar.Title.Inverse">
+        <item name="android:textSize">15sp</item>
+        <item name="android:textColor">@android:color/holo_red_light</item>
+    </style>
+
+
+    <style name="SubtitleText">
+        <item name="android:textSize">14sp</item>
+        <item name="android:textColor">@color/text_light</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <style name="ListSubtitleText" parent="SubtitleText" />
+    <!-- 横向线条 -->
+    <style name="h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:background">?attr/lineColor</item>
+    </style>
+
+    <!-- 个人资料横向线条 -->
+    <style name="my_h_line">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">0.5dip</item>
+        <item name="android:layout_marginRight">20dip</item>
+        <item name="android:layout_marginLeft">20dip</item>
+        <item name="android:background">?attr/lineColor</item>
+    </style>
+
+    <!-- 纵向线条 -->
+    <style name="v_line">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:background">?attr/lineColor</item>
+    </style>
+
+    <!-- 个人资料纵向线条 -->
+    <style name="my_v_line">
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:background">?attr/lineColor</item>
+    </style>
+</resources>
